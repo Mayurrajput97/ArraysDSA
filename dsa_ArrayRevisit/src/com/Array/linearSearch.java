@@ -12,7 +12,7 @@ public class linearSearch {
 	}
 	public static void main(String[] args) {
 		int [] arr = {3,8,4,6,8,20};
-		int target = 8;
+		int target = 20;
 		
 		int index = linearSearching(arr, target);
 		System.out.println("The Element  8 found at Index :" + index);
